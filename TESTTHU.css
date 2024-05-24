@@ -1,0 +1,72 @@
+/* Định dạng cho toàn bộ body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Định dạng cho phần tiêu đề và nội dung */
+h1, h2 {
+    color: #2e54ff;
+    font-weight: 600;
+}
+
+p {
+    color: #555;
+}
+
+/* Định dạng cho phần bản đồ */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng cho các ô nhập liệu trong form */
+input, textarea {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho nút gửi thông tin */
+input[type="submit"] {
+    background-color: #2e54ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e3abf;
+}
+
+/* Định dạng cho phần liên hệ và theo dõi */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho các liên kết mạng xã hội */
+.socials a {
+    color: #2e54ff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #1e3abf;
+}

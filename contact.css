@@ -1,0 +1,28 @@
+/* CSS cho section */
+.page-section {
+    position: relative; /* Đảm bảo section có thể chứa các phần tử con tương đối với nó */
+    padding: 20px; /* Thêm padding tùy theo nhu cầu */
+}
+
+/* CSS cho background */
+.section-background {
+    position: relative; /* Đảm bảo background có thể chứa các phần tử con tương đối với nó */
+}
+
+/* CSS cho hình ảnh nền */
+.section-background img {
+    width: 100%; /* Đảm bảo hình ảnh nền chiếm toàn bộ phần section */
+    height: auto; /* Đảm bảo tỉ lệ khung hình được duy trì */
+    display: block; /* Đảm bảo hình ảnh nền hiển thị đúng */
+    object-fit: cover; /* Hiển thị hình ảnh mà không bị kéo ra ngoài kích thước của nó */
+}
+
+/* CSS cho overlay */
+.section-background-overlay {
+    position: absolute; /* Đảm bảo overlay có thể định vị tuyệt đối bên trong section */
+    top: 0; /* Đặt overlay ở trên cùng */
+    left: 0; /* Đặt overlay ở bên trái */
+    width: 100%; /* Chiều rộng bằng với section */
+    height: 100%; /* Chiều cao bằng với section */
+    background-color: rgba(0, 0, 0, 0.15); /* Màu overlay với độ mờ là 0.15 */
+}
